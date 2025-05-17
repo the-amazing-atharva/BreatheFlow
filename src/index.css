@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,7 +65,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 
 @tailwind base;
 @tailwind components;
@@ -74,4 +74,8 @@ button:focus-visible {
 /* Global Smoothness */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans bg-white text-gray-900;
 }
